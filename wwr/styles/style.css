@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #7B8CDE  ;
-    --secondary-color: #c0e6de ;
+    --primary-color: #7B8CDE;
+    --secondary-color: #74b8a9;
     --accent1-color: #E88D67;
     --accent2-color: #BB999C;
+    --text-color: whitesmoke;
 
 }
 
@@ -14,11 +15,24 @@
 
 nav a {
     text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
 
 }
 
 nav a:hover {
     background-color: var(--accent2-color);
+    color: var(--text-color);
+
+}
+
+.home-title {
+    color: var(--text-color);
+
+}
+
+h4 {
+    color: var(--text-color);
 
 }
 
@@ -35,7 +49,7 @@ nav a:hover {
 
 main section {
     text-align: center;
-    
+
 }
 
 #background {
@@ -57,12 +71,15 @@ header {
 .book,
 .join {
     background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-decoration: none;
 
 }
 
 .book:hover,
 .join:hover {
     background-color: var(--secondary-color);
+    color: var(--text-color);
 
 }
 
@@ -71,6 +88,49 @@ header {
 
 }
 
+.msg h2 {
+    color: var(--text-color);
+
+}
+
+.msg p {
+    color: var(--text-color);
+
+}
+
 footer {
     background-color: var(--secondary-color);
+    color: var(--text-color);
+
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: var(--text-color);
+
+}
+
+footer p {
+    font-size: 1.2em;
+
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    
+}
+
+.logo {
+    width: 80px;
+
+}
+
+.icon {
+    width: 80px;
+
 }
