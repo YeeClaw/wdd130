@@ -98,7 +98,7 @@ p {
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: var(--accent2-color);
   color: var(--paragraph-color-on-color);
 }
 
