@@ -306,7 +306,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
 }
 
 label {
@@ -346,6 +346,20 @@ input, textarea {
     1px -1px 0 black,
     -1px 1px 0 black,
     1px 1px 0 black;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
 }
 
 /* keep this at the bottom */
