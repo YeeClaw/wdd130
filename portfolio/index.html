@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Colt | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -22,10 +24,12 @@
             </nav>
         </header>
         <div id="hero">
-            <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            <div id="hero-text">
+                <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            </div>
         </div>
         <main>
-            <section class="index-aboutme">
+            <section class="info-left">
                 <img class="info-image" src="images/portrait.jpg" alt="Austin Colt">
                 <p>
                     Hello, my name is Austin Colt and I am a developer by trade and musician by hobby. 
@@ -35,7 +39,7 @@
                     the <a href="contact.html">contact</a> page.
                 </p>
             </section>
-            <section class="index-programming">
+            <section class="info-right">
                 <img class="info-image" src="images/code.jpg" alt="Code">
                 <p>
                     Ever since I was a kid I have been fascinated by computers and code. I learned how 
@@ -45,7 +49,7 @@
                     this is something that I have been doing for a long time and I'm quite proud of.
                 </p>
             </section>
-            <section class="index-music">
+            <section class="info-left">
                 <img class="info-image" src="images/group_piano.jpg" alt="Playing piano with friends">
                 <p>
                     In the grand scheme of things, music has been a more recent adventure for me, but 
@@ -58,18 +62,19 @@
         </main>
         <footer>
             <a href="contact.html">
-                <p>Austin Colt Portfolio &copy; 2023 - Austin Colt</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <p><a href="contact.html">Contact Me</a></p>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
-                        <img src="images/linkedin.png" alt="linkedin icon">
-                    </a>
-                    <a href="https://github.com/YeeClaw" target="_blank">
-                        <img src="images/github.svg" alt="github icon">
-                    </a>
-                </div>
+                <img src="images/tesseract.png" alt="Tesseract" class="logo">
             </a>
+            <p><a href="contact.html">Austin Colt Portfolio &copy; 2023 - Austin Colt</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contact.html">Contact Me</a></p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin icon">
+                </a>
+                <a href="https://github.com/YeeClaw" target="_blank">
+                    <img src="images/github.svg" alt="github icon">
+                </a>
+            </div>
         </footer>
     </div>
 </body>

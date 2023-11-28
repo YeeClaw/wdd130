@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Colt | Music</title>
+    <title>Austin Colt | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -22,19 +24,17 @@
             </nav>
         </header>
         <div id="hero">
-            <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            <div id="hero-text">
+                <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            </div>
         </div>
         <main>
-            <section class="music-overview">
-                <p>
-                    Music has brought profound changes to my life in many different forms. It has 
-                    allowed me to think about problems with a unique perspective, and have given 
-                    me a greater appreciation for living in the moment. Additionally, it has been
-                    my best teacher for team work on just about any scale. Being able to work with 
-                    a group of musicians is integral to any kind of performance.
+            <section class="overview">
+                <p id="overviewText">
+                    
                 </p>
             </section>
-            <section class="piano">
+            <section class="info-left">
                 <img class="info-image" src="images/side_piano.png" alt="piano">
                 <p>
                     Piano is my primary instrument of choice, and is what I have the most experience 
@@ -44,7 +44,7 @@
                     my primary drive for the development of my music theory knowledge.
                 </p>
             </section>
-            <section class="guitar">
+            <section class="info-right">
                 <img class="info-image" src="images/guitar.jpg" alt="playing guitar">
                 <p>
                     In efforts to diversify my music portfolio and expand my theory, I have also developed 
@@ -58,18 +58,19 @@
         </main>
         <footer>
             <a href="contact.html">
-                <p>Austin Colt Portfolio &copy; 2023 - Austin Colt</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <p><a href="contact.html">Contact Me</a></p>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
-                        <img src="images/linkedin.png" alt="linkedin icon">
-                    </a>
-                    <a href="https://github.com/YeeClaw" target="_blank">
-                        <img src="images/github.svg" alt="github icon">
-                    </a>
-                </div>
+                <img src="images/tesseract.png" alt="Tesseract" class="logo">
             </a>
+            <p><a href="contact.html">Austin Colt Portfolio &copy; 2023 - Austin Colt</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contact.html">Contact Me</a></p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin icon">
+                </a>
+                <a href="https://github.com/YeeClaw" target="_blank">
+                    <img src="images/github.svg" alt="github icon">
+                </a>
+            </div>
         </footer>
     </div>
 </body>

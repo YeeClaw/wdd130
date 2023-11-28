@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Colt | Programming</title>
+    <title>Austin Colt | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -22,19 +24,17 @@
             </nav>
         </header>
         <div id="hero">
-            <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            <div id="hero-text">
+                <!-- Cool entrance text will go here...you can think of it as a glorified header but BETTER. -->
+            </div>
         </div>
         <main>
-            <section class="prog-overview">
-                <p>
-                    I am proficient in many languages in different areas. I am fluent with HTML, 
-                    CSS, JavaScript, and I'm proficient in Ruby on the web end. As far as OOP or 
-                    more general purpose languages go, I am fluent in Python, Java, C# and others.
-                    I have also delved a little bit into the world of machine learning and I'm 
-                    versatile on just about any project you can think of.
+            <section class="overview">
+                <p id="overviewText">
+                    
                 </p>
             </section>
-            <section class="celestial-crops">
+            <section class="info-left">
                 <img class="info-image" src="images/terraria_forest.jpg" alt="terraria forest">
                 <p>
                     A fun project designed as a mod for the popular sandbox game, "Terraria". 
@@ -44,7 +44,7 @@
                 </p>
                 <img class="info-side-image" src="images/celest_crops.png" alt="Celestial Crops logo">
             </section>
-            <section class="odyssea">
+            <section class="info-right">
                 <img class="info-image" src="images/space_background.png" alt="starry space-scape">
                 <p>
                     A work in progress game that I am developing based on the MonoGame framework. 
@@ -56,18 +56,19 @@
         </main>
         <footer>
             <a href="contact.html">
-                <p>Austin Colt Portfolio &copy; 2023 - Austin Colt</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <p><a href="contact.html">Contact Me</a></p>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
-                        <img src="images/linkedin.png" alt="linkedin icon">
-                    </a>
-                    <a href="https://github.com/YeeClaw" target="_blank">
-                        <img src="images/github.svg" alt="github icon">
-                    </a>
-                </div>
+                <img src="images/tesseract.png" alt="Tesseract" class="logo">
             </a>
+            <p><a href="contact.html">Austin Colt Portfolio &copy; 2023 - Austin Colt</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contact.html">Contact Me</a></p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/austincolt/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin icon">
+                </a>
+                <a href="https://github.com/YeeClaw" target="_blank">
+                    <img src="images/github.svg" alt="github icon">
+                </a>
+            </div>
         </footer>
     </div>
 </body>
