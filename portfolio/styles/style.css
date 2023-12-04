@@ -33,6 +33,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    font-family: var(--paragraph-font);
 }
 
 /* Header Styles */
@@ -120,8 +121,8 @@ p {
 
 .info-left {
     display: grid;
-    grid-template-columns: repeat(1fr, 10);
-    grid-template-rows: repeat(1fr, 6);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     margin-bottom: 200px;
 }
 
@@ -132,6 +133,7 @@ p {
     border-radius: 15px;
     grid-column: 6 / 11;
     grid-row: 2 / 6;
+    
 }
 
 .info-left a {
@@ -151,8 +153,8 @@ p {
 
 .info-right {
     display: grid;
-    grid-template-columns: repeat(1fr, 10);
-    grid-template-rows: repeat(1fr, 6);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     margin-bottom: 200px;
 }
 
@@ -161,8 +163,9 @@ p {
     background-color: var(--paragraph-background-color);
     color: var(--paragraph-color-on-white);
     border-radius: 15px;
-    grid-column: 6 / 11;
+    grid-column: 6 / 1;
     grid-row: 2 / 6;
+    justify-self: right;
 }
 
 .info-right a {
@@ -171,8 +174,9 @@ p {
 }
 
 .info-right img {
-    grid-column: 9 / 11;
+    grid-column: 9 / 1;
     grid-row: 1 / 7;
+    justify-self: right;
 }
 
 .overview {
