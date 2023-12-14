@@ -281,3 +281,44 @@ footer .social img {
     padding-top: 15px;
 
 }
+
+@media screen and (max-width: 1440px) {
+
+    .info-left p {
+        width: 500px;
+        background-color: var(--paragraph-background-color);
+        color: var(--paragraph-color-on-white);
+        border-radius: 15px;
+        grid-column: 6 / 11;
+        grid-row: 4 / 7;
+        
+    }
+    .info-right p {
+        width: 500px;
+        background-color: var(--paragraph-background-color);
+        color: var(--paragraph-color-on-white);
+        border-radius: 15px;
+        grid-column: 6 / 1;
+        grid-row: 4 / 7;
+        justify-self: right;
+    }
+    .info-left .info-side-image {
+        grid-column: 9 / 10;
+        grid-row: 3 / 7;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+        height: 25px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
