@@ -187,6 +187,100 @@ p {
     border-radius: 15px;
 }
 
+/* GITHUB THINGS */
+
+.github-card {
+    margin: 0 auto;
+    background-color: var(--accent2-color);
+    width: 50%;
+    border-radius: 15px;
+}
+
+#github-header {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: var(--secondary-color);
+    display: flex;
+}
+
+#github-header #name {
+    margin: 0 auto;
+    align-self: center;
+    font-family: var(--heading-font);
+    letter-spacing: 0.33em;
+}
+
+#github-header #avatar {
+    border-radius: 15px 0px 0px 0px;
+}
+
+#github-bio h3,
+#github-repos h3 {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.25em;
+    height: 50px;
+    background-color: #a6a095;
+}
+
+#github-bio p {
+    margin-top: 0;
+    text-align: center;
+}
+
+#repo-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: 15px;
+}
+
+dl {
+    list-style: none;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-color);
+}
+
+dt {
+    font-size: 1.25em;
+}
+
+dl a {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+
+.dl-pair {
+    border-top: 1px solid var(--secondary-color);
+    border-radius: 15;
+    padding: 10px;
+    margin: 0; /* Adjust margin for spacing between pairs */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  /* Style the scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0; /* Color of the handle */
+    border-radius: 6px; /* Rounded corners of the handle */
+}
+  
+  /* Style the scrollbar track when the handle is being dragged */
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Color of the track */
+}
+  
+  /* Remove the scrollbar corner (if needed) */
+  ::-webkit-scrollbar-corner {
+    display: none;
+}
+
 /* CONTACT INFORMATION */
 form {
     margin: 0 auto;
